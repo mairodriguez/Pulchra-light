@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: auto;
+}
+
+ :root{
+    --fuentetitulo: "hatolie";
+    --fuentesub:"arial";
+    --bgc:rgba(36, 20, 17, 1);
+}
+.header-nav{
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--bgc);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navegador{
+    display: flex;
+    justify-content: space-between;
+    border-block-start: 1px solid yellow;
+   
+  }  
+.btn-espacio{
+    height: 10vh;
+    margin-block-start: 10%;
+}
+.seguir-btn{
+    background-color: #99420c;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+
+
+}
+
+.img-bg{
+   background-image: url(/imagenes/lamp42grand.svg);
+   background-repeat: no-repeat;
+   background-size:contain;
+   background-position: center; 
+   height: 100vh;
+}
+
+@media (max-width: 390px), (max-height: 880px){
+  body{
+    background-color:var(--bgc);
+    color: rgb(250, 232, 210);
+    background-image: url();
+  }
+  .header-nav{
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--bgc);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navegador{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 1%;
+    border-block-start: 1px solid yellow;
+    margin: 1%;
+   
+  }  
+  .seccion-principal{
+    position: relative;
+  }
+  .titulo-nav{
+    font-family: var(--fuentetitulo);
+    font-size: 2rem;
+  }
+  .titulo-prin{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;  
+    font-family: var(--fuentetitulo);
+ 
+  }
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    cursor: pointer;
+    background-color: var(--bgc);
+    border: none;
+  }
+ 
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+ 
+   }
+   .seccion-article{
+    justify-content: center;
+    text-align: center;
+   }
+   .frase-art{
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+   }
+   .frase-us{
+    display: flex;
+    font-family: var(--fuentesub);
+    font-size: 1rem;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+   }
+   .btn-espacio{
+    height: 10vh;
+    margin-block-start: 10%;
+    align-items: center;
+    justify-content: center;
+    }
+    .seguir-btn{
+    background-color: #99420c;
+    border: none;
+    padding: 15px;
+    margin: 5%;
+    font-size: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+    }
+   
+
+    
+}
