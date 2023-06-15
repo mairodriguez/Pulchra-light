@@ -12,7 +12,6 @@
 body{
   background-color:var(--bgc);
   color: rgb(250, 232, 210);
-  background-image: url();
 }
 /* .header-nav{
     position: fixed;
