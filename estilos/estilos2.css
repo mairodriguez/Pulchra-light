@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: auto;
+}
+:root{
+    --fuentetitulo: "hatolie";
+    --fuentesub:"arial";
+    --bgc:rgba(36, 20, 17, 1);
+}
+body{
+    background-color:var(--bgc);
+    color: rgb(250, 232, 210);
+    background-image: url();
+  }
+  .header-nav{
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--bgc);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navegador{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 1%;
+    border-block-start: 1px solid yellow;
+
+  } 
+  .fondo-principal{
+    background-image: url("/imagenes/fondo5.svg");
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header-nav{
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--bgc);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navegador{
+    display: flex;
+    justify-content: space-between;
+    border-block-start: 1px solid yellow;
+   
+  }  
+  .titulo-nav{
+    font-family: var(--fuentetitulo);
+    font-size: 2rem;
+  }
+ .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    cursor: pointer;
+    background-color: var(--bgc);
+    border: none;
+  }
+ 
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .titulo-presentacion{
+    font-family: var(--fuentetitulo);
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    font-size: 7rem;
+    margin: auto;
+    text-align: center;
+  }
+  .lamparas-presentacion{
+    width: 80%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+  }
