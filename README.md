@@ -1,8 +1,9 @@
 # Pulchra-light
 Website lights
-# descripcion
 
-Mi idea principa es un sitio web inovador en el cual se venden lamparas distintas, estas principalmente va a ser en tres tipos / estilos los cuales son:
+# descripcion del Proyecto
+
+Mi idea principa es un sitio web en el cual servimos de inspiracion al usuario para luego dirigirlo a las paginas dueñas de los productos, mi pagina principalmente se basa es tres tipos o estilos de lamparas:
 
 -Vidrio derretido 
 -Flores
@@ -14,11 +15,12 @@ Mi objetivo es que la web sea classica pero que no pierda el tique moderno de la
 - Pinterest
 - Dribble
 - Savee it
-- Diseños de lamparas del Artista kumbhglass
+- Diseños de lamparas del Artista kumbhglass y pagina web
 - Imagenes de Etsy
 
 # Funcionalidades
-El usuario podrá navegar entre las dos paginas,elegir la categoría de los productos que ofrecemos, agregarlos al carrito y finalmente comprarlo.
+El usuario podra ver las lamparas que sean de su interes,las guardará en favoritos para luego ser redirigido.
+-tendra opcion de hacer loggin y registro con su nombre
 
 # Diseño
 Para elk diseño me basé en muchas paginas de referencias para poder hacerlo pero tambien tiene ideas propias para intentar desarrollar esta idea de diseño.
