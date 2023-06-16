@@ -25,5 +25,6 @@ Para elk diseño me basé en muchas paginas de referencias para poder hacerlo pe
 
 El diseño está casi completo,Aunque al momento de hacerla en html pueden ocurrir cambios asi que no lo doy por completamente terminado.
 
-# Avance 14 junio
+# tarea
+Hacer enlace de pagina a otra, arreglar tipografia, la fuente,
 
