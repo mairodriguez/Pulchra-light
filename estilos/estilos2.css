@@ -96,6 +96,42 @@ body{
   .openbtn:hover {
     background-color: #444;
   }
+  .cont-lema{
+    width: 100%;
+    height: 15vh;
+    background-color: crimson;
+    text-align: center;
+    align-items: center;
+    margin: 0% auto;
+  }
+  .lema{
+    width: 100%;
+    padding: 1%;
+    background-color: #34db0a;
+   
+  }
+  .vista-a-productos{
+    width: 100%;
+    text-align: center;
+    background-color: #aa5555;
+  }
+  .visita-textogrande{
+    display: flex;
+    padding: 3%;
+    margin-inline: 10%;
+
+    background-color: #1c43c0;
+  }
+  .visita-nuestros{
+    font-size: 3rem;
+    font-family: var(--fuentetitulo);
+  }
+  .visita-nuestros{
+    width: 100%;
+    text-align: center;
+    font-family: var(--fuentetitulo);
+
+  }
 
 
   @media screen and (max-height: 450px) {
