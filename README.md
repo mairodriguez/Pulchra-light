@@ -28,5 +28,9 @@ Para elk diseño me basé en muchas paginas de referencias para poder hacerlo pe
 El diseño está casi completo,Aunque al momento de hacerla en html pueden ocurrir cambios asi que no lo doy por completamente terminado.
 
 # tarea
-Hacer enlace de pagina a otra, arreglar tipografia, la fuente,
+-Hacer enlace de pagina a otra, arreglar tipografia, la fuente
+-Arreglar la pagina de registro
+-fijarme en el meta de las paginas con las palabras claves
 
+# javascript
+login y resgistro ya estan completos

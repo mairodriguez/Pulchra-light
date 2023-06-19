@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maily Rodriguez Garibello">
+    <meta name="description" content="Lamparas con diseños artisticos para tus espacios">
+    <title>Pulcra Light</title>
+    <link rel="stylesheet" href="/estilos/registro.css">
+</head>
+<body>
+        <div class="fondo-principal">
+            <header class="my-header">
+                <a class="pulcra-nav" href="./index.html">PuLcra</a>
+                <nav class="navegador">
+                    <img class="boton-nav" src="/imagenes/estrellanav.svg" alt="menu">
+                    <input type="checkbox" class="boton-nav" id="boton-nav">
+                    <label for="boton-nav" for="boton-nav" class="menu-btn">
+                    </label>
+
+                    <ul class="menu">
+                        <li class="lista-nav"><a href="/index.html" class="enlace-nav">Inicio</a></li>
+                        <li class="lista-nav"><a href="#contacto" class="enlace-nav"> Contacto</a></li>
+                        <li class="lista-nav"><a href="#openModal" class="enlace-nav" id="myBtn"> log in</li></a>
+                        <li class="lista-nav"><a href="./form-registros.html" class="enlace-nav"> log up</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="cajaimg-form">
+                <article class="imagen-pulchra">
+                    <img class="img-registro" src="/imagenes/registroimg.png" alt="Pulcra imagen registro">
+                </article>
+                <article class="form-pulchra">
+                    <h1 class="titulo-pulchra">Pulchra</h1>
+                    <form action="http://127.0.0.1:5500/lamparas.htm" method="get" class="registroForm">
+                        <label for="nombre">Nombres:</label>
+                        <input type="text" name="nombre" id="nombre" class="nombre" required>
+                        <label for="nombre">Apellidos:</label>
+                        <input type="text" name="apellido" id="apellido" class="apellido" required>
+                        <label for="nombre">Email:</label>
+                        <input type="text" name="email" id="email" class="email" required>
+                        <label for="nombre">Contraseña:</label>
+                        <input type="password" name="contrasena" id="contrasena" class="contrasena" required> <br>
+                        <input type="submit" value="registrarse" class="btn-registro">
+                    </form>
+                </article>
+            </section>
+        </div>   
+            <footer class="my-footer" name="contacto">
+                <h2 class="pulcrha-footer">Pulchra</h2>
+                <div class="redes-img">
+                    <ul class="redes">
+                        <li>About</li>
+                        <li>Contacto</li>
+                        <li>Inicio</li>
+                    </ul>
+                    <figure class="cont-img-redes">
+                        <img class="img-redes" src="/imagenes/logotipo-de-instagram.png" alt="Instagram">
+                        <img class="img-redes" src="/imagenes/telegrama.png" alt="Telegram">
+                        <img class="img-redes" src="/imagenes/gorjeo.png" alt="Twitter">
+                        <img class="img-redes" src="/imagenes/facebook.png" alt="facebook">
+                    </figure>
+                </div>
+                
+            </footer>
+        <script src="/funcionaidades/registro.js"></script>         
+</body>
+</html>

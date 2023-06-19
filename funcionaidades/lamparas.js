@@ -29,3 +29,29 @@ function retrocederFoto() {
     }
     renderizarImagen();
 }
+
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+const logionForm = document.querySelector('.loginForm')
+logionForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const email = document.querySelector(".email").value;
+    const contrasena = document.querySelector(".contrasena").value;
+    const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [] 
+    const usuarioValido = usuarios.find(usuarios => usuarios.email === email && usuarios.contraseña === contrasena)
+    if(!usuarioValido){
+       return alert("usuario y/o contraseña incorrectos") 
+    }
+    alert(`hola ${usuarioValido.name}`)
+ })
