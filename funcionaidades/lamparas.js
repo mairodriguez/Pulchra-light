@@ -2,7 +2,7 @@ let posicionActual = 0;
 let $botonRetroceder = document.querySelector('#retroceder');
 let $botonAvanzar = document.querySelector('#avanzar');
 let $imagen = document.querySelector('#imagen');
-const IMAGENES = ['img/montanya.jpg','img/parque.jpg','img/palmeras.jpg'];
+const IMAGENES = ['imagenes/flor3.jpg','imagenes/glass5.jpg','imagenes/glass9.jpg'];
 
 let modal = document.getElementById("myModal");
 let btn = document.getElementById("myBtn");
@@ -17,6 +17,7 @@ const imagenGlass =['imagenglass/glass1.jpg','imagenglass/glass2.jpg','imagengla
 const imagenFlor = ['imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg',
 'imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg','imagenflor/flor1.jpg',]
 const epale = ['mai1','mai2','mai3']
+
 function pasarFoto() {
     if(posicionActual >= IMAGENES.length - 1) {
         posicionActual = 0;
@@ -29,7 +30,7 @@ function pasarFoto() {
 /**
  * Funcion que cambia la foto en la anterior posicion
  */
-function retrocederFoto() {
+window.onload = function () {
     if(posicionActual <= 0) {
         posicionActual = IMAGENES.length - 1;
     } else {
