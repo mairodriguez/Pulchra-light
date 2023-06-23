@@ -12,7 +12,7 @@
 <body>
         <div class="fondo-principal">
             <header class="my-header">
-                <a class="pulcra-nav" href="./index.html">PuLcra</a>
+                <a class="pulcra-nav" href="./index.html">pulcra</a>
                 <nav class="navegador">
                     <img class="boton-nav" src="/imagenes/estrellanav.svg" alt="menu">
                     <input type="checkbox" class="boton-nav" id="boton-nav">
@@ -43,6 +43,9 @@
                 <input type="text" name="email" class="email">
                 <label for="contrasena">Contraseña</label>
                 <input type="password" name="contrasena" class="contrasena">
+                <input type="checkbox" name="politica" id="politica" required>
+                <label for="politica">Acepta nuestra politica de privacidad para ofrecerte un mejor servicio y una mejor experienca</label>
+                
                 <input type="submit" value="log-in">
               </form>
             </div>
@@ -67,28 +70,24 @@
                 </article>
       
 
-            <h1>TOGGLE TABS</h1>
-            <div class="wrapper">
-              <div class="buttonWrapper">
-                <button class="tab-button active" style="border-top-left-radius: 10px;" data-id="home">Home</button>
-                <button class="tab-button" data-id="about">About</button>
-                <button class="tab-button" style="border-top-right-radius: 10px;" data-id="contact">Contact</button>
+     
+            <div class="cont-tabs">
+              <div class="botones-tabs">
+                <button class="tab-button active" style="border-top-left-radius: 10px;" data-id="home">Lamparas de vidrio</button>
+                <button class="tab-button" data-id="about">Lamparas de Flores</button>
+                <button class="tab-button" style="border-top-right-radius: 10px;" data-id="contact">Lamparas de medusas</button>
               </div>
               <div class="contentWrapper">
                 <div class="content active" id="home">
+                    
                    </div>
                 <div class="content" id="about">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime itaque veritatis iste soluta placeat obcaecati laudantium repellat corrupti! Eius sunt rerum inventore magnam? Perspiciatis facere error suscipit quisquam quibusdam.
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, corporis voluptatem quo dignissimos eius quis perferendis vero culpa reiciendis nulla quisquam fugit minima sed molestiae excepturi beatae repudiandae ea? Aliquid!
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente officia vel consequuntur, hic at quis? Illo repellendus dolores totam facilis sunt sequi qui hic, nulla ratione harum porro perspiciatis.
-                </div>
+                   </div>
                 <p class="content" id="contact">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit incidunt nostrum? Magni, quam vero, magnam odio similique ipsam minima et repellat rerum cupiditate totam in repudiandae. Sed, dicta corrupti?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore quas quis earum incidunt voluptas! Ducimus quod libero aliquid consequatur et modi porro officia, quibusdam quas commodi placeat maxime qui?
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab ea debitis eligendi accusamus deleniti maxime pariatur. Assumenda, facere placeat eius quam magni accusantium aut quae minima iure atque incidunt illum.
-                </p>
+                   </p>
               </div>
             </div>
+            
             
             <section class="carousel">
                 <button class="atras"  id="retroceder">
@@ -132,11 +131,9 @@
                         </p>
                     </div>
                 </article>
-            
         </section>
-            
-          
         </main>
+
         <footer class="my-footer" name="contacto">
             <h2 class="pulcrha-footer">Pulchra</h2>
             <div class="redes-img">
@@ -151,8 +148,7 @@
                     <img class="img-redes" src="/imagenes/gorjeo.png" alt="Twitter">
                     <img class="img-redes" src="/imagenes/facebook.png" alt="facebook">
                 </figure>
-            </div>
-            
+            </div> 
         </footer>
     </div>
     <script src="/funcionaidades/lamparas.js"></script>
