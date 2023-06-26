@@ -67,25 +67,35 @@ body{
 
   
   .cajaimg-form{
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-inline: 4%;
+   
+  }
+  .fondo-principal{
+    height: 100%;
     background-image: url(/imagenes/fondoregistro.png);
+    justify-content: center;
+    background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-   
+       
   }
 
   .imagen-pulchra{
-   width: 60%;
+   width: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
-   
+  
   }
 
   .img-registro{
     width: 100%;
+    object-fit: cover;
+    
   }
   .form-pulchra{
     width: 90%;
@@ -93,11 +103,11 @@ body{
     margin: 5%;
     display: grid;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     color: black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    align-items: center;
   }
   .btn-registro{
     background-color: #792d2d;
@@ -126,3 +136,81 @@ body{
     margin-inline: 5%;
     grid-template-columns: auto auto;
   }
+  @media screen and (max-width: 900px) {
+    .my-header{
+      position: fixed;
+
+    }
+  
+    .boton-nav {
+      opacity: 1;
+    }
+  
+    #boton-nav {
+      opacity: 0;
+    }
+  
+    .navegador .menu-btn {
+      display: block;
+      width: 50%;
+    }
+  
+    .navegador {
+      width: 10%;
+      display: flex;
+      border: none;
+
+    }
+  
+    .navegador .menu {
+      position: fixed;
+      left: -100%;
+      background: #111;
+      margin-top: 5%;
+      height: 80vh;
+      width: 50%;
+      text-align: center;
+      display: block;
+      flex-wrap: wrap;
+      transition: all 0.3s ease;
+      
+    }
+  
+    #boton-nav:checked ~ .menu {
+      left: 0;
+    }
+  
+    .navegador .menu .lista-nav {
+      width: 100%;
+      margin: 40px 0;
+    }
+  
+    .navegador .menu .lista-nav .enlace-nav:hover {
+      background: none;
+      color: rgb(255, 0, 242);
+    }
+  
+    .navegador .menu .lista-nav .enlace-nav {
+      color: white;
+      text-decoration: none;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+  
+    #boton-nav:checked ~ .menu .lista-nav .enlace-nav {
+      margin-left: 5px;
+    }
+    .cajaimg-form{
+      flex-wrap: wrap;
+    }
+    .form-pulchra{
+      width: 50%;
+      flex-wrap: wrap;
+    }
+    .fondo-principal{
+      height: 100%;
+      background-size: cover;
+    }
+     }

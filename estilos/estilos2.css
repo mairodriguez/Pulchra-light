@@ -148,7 +148,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   .titulo-presentacion{
     font-family: var(--fuentetitulo);
@@ -448,7 +447,7 @@ body{
       margin-left: 5px;
     }
     .fondo-principal{
-      height: 30vh;
+      height: 40vh;
       background-position: center;
       background-size: contain;
     
@@ -461,9 +460,12 @@ body{
       height: 40vh;
 
     }
+    .presentacion{
+      height: 100%;
+    }
     .titulo-presentacion{
-      font-size: 3rem;
-      align-items: end;
+      font-size:3rem;
+      align-items: center;
     
     }
     .visita-textogrande{
