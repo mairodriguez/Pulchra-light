@@ -9,28 +9,13 @@ Mi idea principa es un sitio web en el cual servimos de inspiracion al usuario p
 -Flores
 -Medusas
 
-Mi objetivo es que la web sea classica pero que no pierda el tique moderno de las lamparas con estas formas distintas, dando un aspecto elegante así resaltando la belleza y el increibkle diseño de lamparas.
+Mi objetivo es que la web sea classica pero que no pierda el tique moderno de las lamparas con estas formas distintas, dando un aspecto elegante así resaltando la belleza y el increible diseño de lamparas.
 
-# Recursos
-- Pinterest
-- Dribble
-- Savee it
-- Diseños de lamparas del Artista kumbhglass y pagina web
-- Imagenes de Etsy
 
 # Funcionalidades
-El usuario podra ver las lamparas que sean de su interes,las guardará en favoritos para luego ser redirigido.
--tendra opcion de hacer loggin y registro con su nombre
+-El usuario podra ver las lamparas que sean de su interes,les dará me gusta a kas que le interese teniendo la posiibilidad de ser redirigido.
+-tendra opcion de hacer loggin y registro con su nombre.
 
-# Diseño
-Para elk diseño me basé en muchas paginas de referencias para poder hacerlo pero tambien tiene ideas propias para intentar desarrollar esta idea de diseño.
 
-El diseño está casi completo,Aunque al momento de hacerla en html pueden ocurrir cambios asi que no lo doy por completamente terminado.
-
-# tarea
--Hacer enlace de pagina a otra, arreglar tipografia, la fuente
--Arreglar la pagina de registro
--fijarme en el meta de las paginas con las palabras claves
-
-# javascript
-login y resgistro ya estan completos
+Maily Yuliana Rodriguez Garibello
+mailyyuliana.rodriguez@etudioenpenascal.com

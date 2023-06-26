@@ -14,5 +14,6 @@ registroForm.addEventListener('submit',(e) => {
     usuarios.push({name:nombre, apellidos:apellidos, email:email , contraseña:contrasena})
     localStorage.setItem('usuarios', JSON.stringify(usuarios))
     alert("registro exitoso")
+    window.location.href = "lamparas.html";
    
 })

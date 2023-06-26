@@ -21,6 +21,7 @@ const imagenFlor = ['imagenflor/flor1.jpg','imagenflor/flor2.jpg','imagenflor/fl
 const enlaceFlor = ['https://www.clearhalo.com/products/1-bulb-table-light-korean-garden-dinning-room-night-lamp-with-floral-opal-frosted-glass-shade-in-red-pink?variant=40507826897060',
 'https://www.clearhalo.com/es-es/products/flared-bedroom-night-table-light-pastoral-metal-1-2-lights-green-nightstand-lamp-with-flower-decoration',
 'https://www.amazon.com/-/es/Candelabro-vintage-colgante-cristal-entrada/dp/B09L86X3S4']
+const enlaceflortexto = ["Lampara flor", "Lampara flor","lampara de Angel  flores", "Lampara doble de flores", ]
 
 // function pasarFoto() {
 //     if(posicionActual >= IMAGENES.length - 1) {

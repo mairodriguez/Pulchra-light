@@ -4,7 +4,7 @@
     box-sizing: auto;
   }
   :root{
-    --fuentetitulo: "hatolie";
+    --fuentetitulo: "Hatolie";
     --fuentesub:"fuentes/NordicaThin";
     --bgc:rgba(36, 20, 17, 1);
     }
@@ -16,34 +16,37 @@
   .my-header {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color:var(--bgc);
     color: white;
     align-items: center;
+    justify-content: space-between;
+    background-color:var(--bgc);
+
   }
   
   .pulcra-nav {
-    text-decoration: none;
     color: white;
+    font-size: 3rem;
     margin-inline: 2%;
-    font-size: 2rem;
+    text-decoration: none;
     font-family: var(--fuentetitulo);
   }
   
   .navegador {
     width: 50%;
-    height: 20%;
+    height: 10%;
     display: flex;
     margin-top: 2%;
     position: relative;
     margin-bottom: 3%;
+
   }
   
   .menu {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
+    justify-content: space-around;
   }
   
   .boton-nav {
@@ -53,18 +56,18 @@
   }
   
   .enlace-nav {
-    font-size: 1.7rem;
-    text-decoration: none;
     color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
     font-family:var(--fuentetitulo);
   }
   .seccion-principal{
     width: 100%;
     height: 90vh;
     display: flex;
-    background-image: url(/imagenes/lampgrande.png);
+    background-image: url("/imagenes/lampgrande.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 0 0;
     background-size: contain;
 
   }
@@ -80,24 +83,23 @@
  
   .titulo-prin{
     width: 100%;
-    font-size: 8rem;
-    font-weight: 100;
     display: flex;
+    font-size: 9rem;
+    font-weight: 100;
     text-align: center;  
     justify-content: center;
     font-family: var(--fuentetitulo);
    
   }
    .frase-us{
-    display: flex;
-    font-family: var(--fuentetitulo);
-    font-size: 2rem;
-    justify-content: flex-end;
     height: 10vh;
-    align-items: center;
+    display: flex;
     top: 65%;
     left: 80%;
- 
+    font-size: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: var(--fuentetitulo);
 
    }
     .seguir-btn{
@@ -121,6 +123,8 @@
   @media screen and (max-width: 600px) {
     .my-header{
       position: fixed;
+      display: flex;
+      align-items: center;
     }
     
     .boton-nav {
@@ -129,17 +133,14 @@
   
     #boton-nav {
       opacity: 0;
-    }
-  
-    .navegador .menu-btn {
-      display: block;
-      width: 50%;
+
     }
   
     .navegador {
-      width: 10%;
-      margin-bottom: 5%;
+      width: 15%;
       border: none;
+      /* no quiero usar este m-botton pero no me lo alinea sin esto :( */
+      margin-bottom: 10%;
     }
   
     .navegador .menu {
@@ -164,11 +165,7 @@
       width: 100%;
       margin: 40px 0;
     }
-  
-    .navegador .menu .lista-nav .enlace-nav:hover {
-      background: none;
-      color: rgb(255, 0, 242);
-    }
+
   
     .navegador .menu .lista-nav .enlace-nav {
       color: white;
@@ -183,16 +180,16 @@
       margin-left: 5px;
     }
     .img-lamps{
-      width: 0%;
+      display: none;
     }
     .seccion-article{
-      width: 100vh;
+      width: 100%;
       height: 100vh;
       padding: 5%;
       display:grid;
       align-items: center;
-      text-align: center;
       justify-content: center;
+   
 
     }
     .titulo-prin{
@@ -202,4 +199,17 @@
       text-align: center;  
       justify-content: center;
     }
+    .seccion-principal{
+      background-position: 0 0;
+       
+   }
+   .seccion-principal-texto{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+   }
+
      }
