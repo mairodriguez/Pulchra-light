@@ -32,8 +32,6 @@ body{
     height: 10%;
     margin: 2%;
     display: flex;
-    padding: 1%;
-     margin: 2%;
     position: relative;
     margin-bottom: 3%;
   
@@ -47,7 +45,7 @@ body{
   }
   
   .menu {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -159,6 +157,7 @@ body{
       width: 10%;
       display: flex;
       border: none;
+      margin-bottom: 10%;
 
     }
   

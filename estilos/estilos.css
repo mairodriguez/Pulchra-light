@@ -28,6 +28,7 @@
     font-size: 3rem;
     margin-inline: 2%;
     text-decoration: none;
+    justify-content: center;
     font-family: var(--fuentetitulo);
   }
   
@@ -42,7 +43,7 @@
   }
   
   .menu {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -120,7 +121,7 @@
    
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .my-header{
       position: fixed;
       display: flex;
