@@ -255,6 +255,8 @@ body{
       height: 400px;
       background-size: cover;
   }
+
+
   /*--------------- tabs----------------- */
 
   .botones {
@@ -338,6 +340,7 @@ body{
 
   .us{
     margin: 0 auto;
+
   }
  
   .about-us{
@@ -346,6 +349,7 @@ body{
     display: flex;
     text-align: center;
     justify-content:space-around;
+
   }
   .luz-fondoUs-cont{
     width: 50%;
@@ -395,6 +399,7 @@ body{
     letter-spacing: 3px;
     font-family:var(--fuentesub);
 
+
   }
 
   .titulo-aboutUs{
@@ -405,17 +410,19 @@ body{
     border-block-end-style: groove;
     border-block-end-color:var(--color-border);
     font-family: var(--fuentetitulo);
+
   
   }
   .Us-caja-amarilla{
     width: 70%;
     height: 30vh;
-    margin: 0 auto;
+    margin: 5% auto;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
     border: 3px solid var(--color-border) ;
+
 
   }
   .caja-amarilla-texto{
@@ -425,6 +432,7 @@ body{
     font-weight: 50;
     letter-spacing: 3px;
     font-family:var(--fuentesub);
+
   }
   .imagen-visita-principal:hover{
     -webkit-transform:scale(1);transform:scale(0.9);
@@ -434,21 +442,26 @@ body{
   
   
   .my-footer{
-    height: 90%;
+    height: 30vh;
     background-color: rgb(92, 38, 2);
     text-align: center;
   }
   .pulcrha-footer{
-    padding: 1%;
     font-size: 3rem;
+    padding: 1%;
     font-family: var(--fuentetitulo);
   }
   .redes{
     font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-family: var(--fuentesub);
+    list-style-type: none;
   }
   .redes-img{
+    padding: 1%;
     display: flex;
     justify-content: space-between;
+
   }
   .cont-img-redes{
     display: grid;

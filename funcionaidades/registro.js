@@ -17,3 +17,8 @@ registroForm.addEventListener('submit',(e) => {
     window.location.href = "lamparas.html";
    
 })
+let myFecha = new Date();
+let fechayHora = myFecha.toLocaleString();
+
+document.querySelector(".fecha-y-hora").innerHTML = fechayHora;
+

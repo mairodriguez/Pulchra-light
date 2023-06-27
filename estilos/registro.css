@@ -77,9 +77,9 @@ body{
        
   }
   .cajaimg-form{
-    height: 120vh;
+    height: 90vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     margin-inline: 4%;
 
@@ -128,6 +128,27 @@ body{
     border: none;
     padding: 3%;
   }
+  .log-up{
+    font-size: 6rem;
+    letter-spacing: 4px;
+    font-family: var(--fuentetitulo);
+  }
+
+  .log-up-date{
+    height: 10%;
+    display: flex;
+    padding:1%;
+    flex-direction: column;
+    text-align: center;
+
+
+  }
+  .fecha-y-hora{
+    font-size: 3rem;
+    margin: 1%;
+    font-family: var(--fuentetitulo);
+  }
+
   .my-footer{
     height: 20vh;
     background-color: rgba(141, 68, 0, 1);
@@ -219,6 +240,7 @@ body{
     .imagen-pulchra{
       width: 100%;
       height: 30vh;
+      margin-block-start: 10%;
     }
     .img-registro{
       width: 100%;
@@ -226,6 +248,7 @@ body{
     }
     .cajaimg-form{
       flex-wrap: wrap;
+        height: 100vh;
     }
     .form-pulchra{
       width: 70%;
@@ -236,5 +259,10 @@ body{
     .fondo-principal{
       height: 100%;
       background-size: cover;
+    }
+    .log-up-date{
+      height: 50%;
+      padding:10%;
+  
     }
      }

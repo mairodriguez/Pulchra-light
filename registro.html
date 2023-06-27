@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/estilos/registro.css">
 </head>
 <body>
+    <div class="cont-general">
         <div class="fondo-principal">
             <header class="my-header">
                 <a class="pulcra-nav" href="./index.html">PuLcra</a>
@@ -28,6 +29,11 @@
                     </ul>
                 </nav>
             </header>
+        <main>
+            <article class="log-up-date">
+                <h1 class="log-up">Log up</h1>
+                <p class="fecha-y-hora"></p>
+            </article>
             <section class="cajaimg-form">
                 <article class="imagen-pulchra">
                     <img class="img-registro" src="/imagenes/registroimg.png" alt="Pulcra imagen registro">
@@ -44,9 +50,12 @@
                         <label for="nombre">contraseña:</label>
                         <input type="password" name="contrasena" id="contrasena" class="contrasena inputForm" required> <br>
                         <input type="submit" value="registrarse" class="btn-registro">
-                    </form>
+                    </form> 
                 </article>
             </section>
+           
+        </main>
+            
         </div>   
             <footer class="my-footer" id="contacto">
                 <h2 class="pulcrha-footer">Pulchra</h2>
@@ -65,6 +74,8 @@
                 </div>
                 
             </footer>
+    </div>
+        
         <script src="/funcionaidades/registro.js"></script>         
 </body>
 </html>
