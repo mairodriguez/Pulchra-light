@@ -377,12 +377,13 @@ body{
   .cont-us-description{
     width: 80%;
     height: 80%;
+    margin: 5%;
     display: flex;
     font-size: 1.4rem;
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
-   
+
   }
   .us-y-descripcion{
     width: 40%;
