@@ -261,9 +261,9 @@ body{
       background-size: cover;
     }
     .log-up-date{
-      height: 40vh;
+      height: 30vh;
       padding:10%;
-      justify-content: center;
+      justify-content: end;
   
     }
      }
