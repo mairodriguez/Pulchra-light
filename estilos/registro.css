@@ -82,7 +82,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-inline: 4%;
-   
+
   }
 
   .imagen-pulchra{
@@ -90,8 +90,6 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2%;
-   background-color: #ec2828;
    
   
   }
@@ -104,18 +102,20 @@ body{
   }
   .form-pulchra{
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     margin: 5%;
     padding: 3%;
     display: grid;
     background-color: white;
     color: black;
-    padding: 20px;
     font-size: 1.3rem;
     text-align: center;
     align-items: center;
     letter-spacing: 2px;
     font-family: var(--fuentesub);
+  }
+  .inputForm{
+    height: 20px;
   }
   .titulo-pulchra{
     font-size: 3rem;
@@ -215,6 +215,13 @@ body{
   
     #boton-nav:checked ~ .menu .lista-nav .enlace-nav {
       margin-left: 5px;
+    }
+    .imagen-pulchra{
+      width: 70%;
+      height: 20vh;
+    }
+    .img-registro{
+      height: 100%;
     }
     .cajaimg-form{
       flex-wrap: wrap;
