@@ -3,8 +3,12 @@
     padding: 0%;
     box-sizing: auto;
 }
+@font-face {
+  font-family: Hatolie;
+  src: url(/fuentes/Hatolie.ttf);
+}
 :root{
-    --fuentetitulo: "hatolie";
+    --fuentetitulo: "Hatolie";
     --fuentesub:"a";
     --bgc:rgba(36, 20, 17, 1);
     --color-border: rgb(253, 207, 0);
@@ -95,7 +99,7 @@ body{
   .img-registro{
     width: 100%;
     height: 50vh;
-    object-fit: cover;
+    object-fit: contain;
     
   }
   .form-pulchra{
@@ -107,9 +111,16 @@ body{
     background-color: white;
     color: black;
     padding: 20px;
-    font-size: 30px;
+    font-size: 1.3rem;
     text-align: center;
     align-items: center;
+    letter-spacing: 2px;
+    font-family: var(--fuentesub);
+  }
+  .titulo-pulchra{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-family: var(--fuentetitulo);
   }
   .btn-registro{
     background-color: #792d2d;
@@ -211,6 +222,7 @@ body{
     .form-pulchra{
       width: 50%;
       height: 50vh;
+      padding: 5%;
       flex-wrap: wrap;
     }
     .fondo-principal{
