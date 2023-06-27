@@ -134,17 +134,16 @@ body{
   .btn-login{
     width: 20%;
     margin: 0 auto;
-    padding: 1%;
+    padding: 2%;
     border: none;
     color: #fff;
     font-size: 1rem;
     letter-spacing: 2px;
+    border-radius: 3px;
     font-family: var(--fuentesub);
     background-color: #792d2d;
   }
-  .btn-login:hover{
-    background-color: #ac3ef5;
-  }
+  
   
 
 

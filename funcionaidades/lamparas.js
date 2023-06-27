@@ -141,63 +141,59 @@ const Arrayimagenes = [
   },
 
 
+
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara cute estilo medusas",
     imagen:"imagenes/medusa1.jpg",
-    src:"https://www.homewode.com/products/handmade-jellyfish-lamp-diy-creative-materials-package?spm=..collection_f20a8d3b-2782-462e-a7b6-ab2752cb7cee.collection_detail_1.39&spm_prev=..index.header_1.1&pp=0&epik=dj0yJnU9Tng0NTg3SHN0dl9maHQ2NDJDd3FsRGYyNWhSVWpjdzkmcD0wJm49NEFjMzZsYkQyRHZWUi1BNGlhRkdLQSZ0PUFBQUFBR1NhbVF3",
+    src:"https://www.etsy.com/es/listing/556650616/colgante-de-medusas-con-luz-led?click_key=9da77dc4355234355d91251dfbca10ede7cac434%3A556650616&click_sum=7cefacc8&elp_to_elp_for_all_recs=1&ref=landingpage_similar_listing_bot-4&listing_id=556650616&listing_slug=colgante-de-medusas-con-luz-led",
     tipo:"Medusa"
   },
 
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara de vidrio estilo medusas",
     imagen:"imagenes/medusa2.jpg",
     src:"https://www.etsy.com/es/listing/1252291185/made-to-orden-lampara-en-forma-de-medusa?click_key=63daefbf5b032eb9c1d97b0f99133031c06612d2%3A1252291185&click_sum=6da8a286&ref=search2_top_narrowing_intent_modules_top_rated-2&frs=1&sts=1",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara de tela y luces estilo medusas",
     imagen:"imagenes/medusa3.jpg",
     src:"https://www.etsy.com/es/listing/1486105427/lampara-de-medusa-luminosa-lampara-de?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=jellyfish&ref=sr_gallery-1-1&pro=1&edd=1&organic_search_click=1",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara de vidrio estilo medusas",
     imagen:"imagenes/medusa4.jpg",
     src:"https://www.etsy.com/es/listing/577644890/envio-gratuito-a-los-estados-unidos?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=jellyfish&ref=sr_gallery-1-4&organic_search_click=1",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara rosa de vidrio estilo medusas",
     imagen:"imagenes/medusa5.jpg",
-    src:"https://www.etsy.com/es/listing/1490204630/lampara-de-medusas-lampara-de-forma-de?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=jellyfish&ref=sr_gallery-1-16&pro=1&edd=1&organic_search_click=1",
+    src:"https://fishcake2012.tumblr.com/post/118457799305/fuskida-blown-glass-jellyfish-table-lamps-by",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara brillante estilo medusas",
     imagen:"imagenes/medusa6.jpg",
     src:"https://www.contemporarychandeliercompany.co.uk/chandeliers/acrylic-infinity-jellyfish/projectid/1/",
     tipo:"Medusa"
   },
+
   {
-    nombre:"lampara Medusas",
-    imagen:"imagenes/medusa7.jpg",
-    src:"https://www.contemporarychandeliercompany.co.uk/chandeliers/acrylic-infinity-jellyfish/projectid/1/",
-    tipo:"Medusa"
-  },
-  {
-    nombre:"lampara Medusas",
+    nombre:"lampara pequeña de plastico estilo medusa",
     imagen:"imagenes/medusa8.jpg",
-    src:"https://www.etsy.com/es/listing/594661300/lampara-de-pie-lampara-amarilla?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp+shade&ref=sr_gallery-1-9&cns=1&edd=1&organic_search_click=1",
+    src:"https://www.etsy.com/listing/1510281719/cheerland-glitter-iridescent-jellyfish?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=jellyfish+lamp&ref=sr_gallery-1-22&pro=1&frs=1&organic_search_click=1",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"Mini lamparas estilo medusas",
     imagen:"imagenes/medusa9.jpg",
-    src:"https://www.etsy.com/es/listing/594661300/lampara-de-pie-lampara-amarilla?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp+shade&ref=sr_gallery-1-9&cns=1&edd=1&organic_search_click=1",
+    src:"https://www.contemporarychandeliercompany.co.uk/chandeliers/glass-jellyfish/projectid/2/",
     tipo:"Medusa"
   },
   {
-    nombre:"lampara Medusas",
+    nombre:"lampara de vidrio estilo medusas",
     imagen:"imagenes/medusa10.jpg",
     src:"https://hardsadness.tumblr.com/post/166907016141/imgfave",
     tipo:"Medusa"
