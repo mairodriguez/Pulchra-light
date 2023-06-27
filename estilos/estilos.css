@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: auto;
   }
+  @font-face {
+    font-family: Hatolie;
+    src: url(/fuentes/Hatolie.ttf);
+  }
   :root{
     --fuentetitulo: "Hatolie";
     --fuentesub:"fuentes/NordicaThin";
@@ -29,7 +33,7 @@
     margin-inline: 2%;
     text-decoration: none;
     justify-content: center;
-    font-family: var(--fuentetitulo);
+    font-family: Hatolie;
   }
   
   .navegador {
@@ -121,7 +125,7 @@
    
 
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
     .my-header{
       position: fixed;
       display: flex;

@@ -1,5 +1,8 @@
 # Pulchra-light
-Website lights
+Pulchra-light
+
+Maily Yuliana Rodriguez Garibello
+mailyyuliana.rodriguez@estudioenpenascal.com
 
 # descripcion del Proyecto
 
@@ -17,5 +20,3 @@ Mi objetivo es que la web sea classica pero que no pierda el tique moderno de la
 -tendra opcion de hacer loggin y registro con su nombre.
 
 
-Maily Yuliana Rodriguez Garibello
-mailyyuliana.rodriguez@etudioenpenascal.com
