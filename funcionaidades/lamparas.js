@@ -17,62 +17,62 @@ span.onclick = function() {
 
 const Arrayimagenes = [
   {
-     nombre:"Lampara Circular Kumbaglass",
+     nombre:"Lampara Circular Kumbhglass",
      imagen:"imagenes/glass1.jpg",
      src:"https://kumbhglass.theshop.jp/",
      tipo:"Glass"
   },
   {
-    nombre:"Lampara Derretida Kumbaglass",
+    nombre:"Lampara Derretida Kumbhglass",
     imagen:"imagenes/glass2.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara De Goteo",
+    nombre:"Lampara De Goteo estilo cono Kumhbglass",
     imagen:"imagenes/glass3.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara circular de goteo Kumbhglass",
     imagen:"imagenes/glass4.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara circular con agujeros Kumbaglass",
     imagen:"imagenes/glass5.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara De Goteo estilo cono Kumbaglass",
     imagen:"imagenes/glass6.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara circular de goteo Kumbaglass",
     imagen:"imagenes/glass1.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara De Goteo estilo cono Kumbaglass",
     imagen:"imagenes/glass8.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
    },
    {
-    nombre:"Lampara Vidrio",
+    nombre:"Lampara circular de goteo roja Kumbhglass",
     imagen:"imagenes/glass9.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
   },
   
   {
-    nombre:"ILamparaVidrio",
+    nombre:"Lampara tipo cono de goteo roja Kumbhglass",
     imagen:"imagenes/glass10.jpg",
     src:"https://kumbhglass.theshop.jp/",
     tipo:"Glass"
@@ -80,63 +80,63 @@ const Arrayimagenes = [
   
   
   {
-    nombre:"lampara Flor",
+    nombre:"lampara de mesa estilo flor",
     imagen:"imagenes/flor1.jpg",
     src:"https://www.clearhalo.com/products/1-bulb-table-light-korean-garden-dinning-room-night-lamp-with-floral-opal-frosted-glass-shade-in-red-pink?variant=40507826897060",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara de mesa estilo flor y rosas",
     imagen:"imagenes/flor2.jpg",
     src:"https://www.clearhalo.com/es-es/products/flared-bedroom-night-table-light-pastoral-metal-1-2-lights-green-nightstand-lamp-with-flower-decoration",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
-    imagen:"imagenes/flor5.jpg",
-    src:"https://www.amazon.com/-/es/Candelabro-vintage-colgante-cristal-entrada/dp/B09L86X3S4",
+    nombre:"lampara doble estilo flor",
+    imagen:"imagenes/flor3.jpg",
+    src:"https://www.amazon.com/L%C3%A1mpara-Tiffany-pantallas-pulgadas-almohadilla/dp/B08PQPQP7H/ref=sr_1_1_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=22LRZZWCRRIHC&keywords=lamparas+de+flores+vidrio&qid=1687865908&sprefix=lamparas+de+flores+vidrio%2Caps%2C141&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara de mesa estilo flor",
     imagen:"imagenes/flor4.jpg",
     src:"https://www.etsy.com/es/listing/1506680123/lampara-de-flores-lampara-de-mesa-de?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp&ref=sr_gallery-1-19&frs=1&edd=1&organic_search_click=1",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara estilo flor colorida",
     imagen:"imagenes/flor5.jpg",
     src:"https://www.etsy.com/es/listing/643199668/lampara-de-flor-de-loto-lampara-de?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp&ref=sr_gallery-1-18&edd=1&organic_search_click=1/",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara colgante estilo flor colorida",
     imagen:"imagenes/flor6.jpg",
     src:"https://www.etsy.com/es/listing/1092375582/lampara-de-flor-azul-de-pie-con-hojas?click_key=72c3cc535be4817eea6b585f16e57b9f1e60f027%3A1092375582&click_sum=500df822&ref=internal_similar_listing_bot-6&listing_id=1092375582&listing_slug=lampara-de-flor-azul-de-pie-con-hojas",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara colgante estilo flor de vidrio",
     imagen:"imagenes/flor7.jpg",
     src:"https://www.etsy.com/es/listing/1313723258/lamparas-de-techo-lampara-en-forma-de?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp&ref=sr_gallery-1-35&cns=1&edd=1&sts=1&organic_search_click=1",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara de vidrio colgante doble estilo flor",
     imagen:"imagenes/flor8.jpg",
-    src:"https://www.etsy.com/es/listing/1461133997/lampara-de-flores-lampara-de-mesa-de?click_key=55f575fb08793633a91473403e55574a13418a7f%3A1461133997&click_sum=1afbde83&external=1&ref=hp_signed_out_opfy-3-1",
+    src:"https://www.etsy.com/es/listing/569276057/ca-venier-aplique-2-luces-cristal-y?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lampara+flor+vidrio&ref=sc_gallery-1-1&frs=1&cns=1&edd=1&plkey=9dfaaacecfb1a6d213812c2ce1953cba06c13218%3A569276057",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara de mesa estilo rosa doble ",
     imagen:"imagenes/flor9.jpg",
-    src:"https://www.etsy.com/es/listing/788956144/lampara-flor-con-hada-en-columpio-escoge?click_key=de7e83053387fda1f44f937fd092d2c8702eea9a%3A788956144&click_sum=f931d0a7&ref=sim_strv-6&frs=1",
+    src:"https://www.etsy.com/es/listing/1184445843/lampara-de-mesa-rosa-con-pantallas-de?click_key=0a6daad6546cdd851eecb91a8aa1d5ee9bcae627%3A1184445843&click_sum=65bd45dc&ref=related-1&sts=1",
     tipo:"Flor"
   },
   {
-    nombre:"lampara Flor",
+    nombre:"lampara colgante de vidrio estilo flores",
     imagen:"imagenes/flor10.jpg",
-    src:"https://www.etsy.com/es/listing/594661300/lampara-de-pie-lampara-amarilla?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=flower+lamp+shade&ref=sr_gallery-1-9&cns=1&edd=1&organic_search_click=1",
+    src:"https://www.etsy.com/es/listing/1463360349/lampara-de-techo-chandelier-con-flores?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lampara+flor+vidrio&ref=sr_gallery-1-10&edd=1&sts=1&organic_search_click=1",
     tipo:"Flor"
   },
 
@@ -244,6 +244,7 @@ const Arrayimagenes = [
           
           
                 const figflor = document.createElement('figcaption');
+                figflor.className = "cont-nombreImagenes";
                 const enlaceflor = document.createElement('a');
                 enlaceflor.href = arrayGlass[i].src;
                 enlaceflor.textContent = arrayGlass[i].nombre;
@@ -289,6 +290,7 @@ const Arrayimagenes = [
             
             
                   const figflor = document.createElement('figcaption');
+                  figflor.className = "cont-nombreImagenes";
                   const enlaceflor = document.createElement('a');
                   enlaceflor.href = arrayFlor[i].src;
                   enlaceflor.textContent =  arrayFlor[i].nombre;
@@ -334,6 +336,7 @@ const Arrayimagenes = [
               
               
                     const figflor = document.createElement('figcaption');
+                    figflor.className = "cont-nombreImagenes";
                     const enlaceflor = document.createElement('a');
                     enlaceflor.href = arrayJelly[i].src;
                     enlaceflor.textContent = arrayJelly[i].nombre;

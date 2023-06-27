@@ -5,7 +5,7 @@
 }
 :root{
     --fuentetitulo: "hatolie";
-    --fuentesub:"monospace";
+    --fuentesub:"Arial,Helvetica,sans-serif";
     --bgc:rgb(19, 8, 3);
     --color-border: rgb(253, 207, 0);
 }
@@ -268,19 +268,19 @@ body{
   }
   /*--------------- tabs----------------- */
 
-  button {
+  .botones {
     margin: auto;
     letter-spacing: 3px;
     border: none;
     padding: 10px;
     background-color:var(--bgc);
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: 0.5s;
   }
   
-  button:hover {
+  .botones :hover {
     background-color: #fffabf;
   }
 
@@ -304,6 +304,16 @@ body{
     object-fit: contain;
     display: flex;
 
+}
+.cont-nombreImagenes{
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nombreImagenes{
+  width: 50%;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
 }
 .contImages{
     width: 80%;
@@ -347,14 +357,14 @@ body{
     display: flex;
     text-align: center;
     justify-content:space-around;
-
   }
   .luz-fondoUs-cont{
-    width: 60%;
+    width: 50%;
     background-image: url(/imagenes/fondoluz2.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+   
 
   }
   .luz-Us{
@@ -376,22 +386,31 @@ body{
     }
   }
   .cont-us-description{
+    width: 80%;
     height: 80%;
     display: flex;
+    font-size: 1.4rem;
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
+   
   }
   .us-y-descripcion{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-flow: column;
     align-items: center;
+    font-size: 1.5rem;
+    font-weight: 50;
+    letter-spacing: 3px;
+    font-family:var(--fuentesub);
+
   }
+
   .titulo-aboutUs{
     width: 50%;
     padding: 2%;
-    font-size: 2rem;
+    font-size: 4rem;
     border-block-end-width: 3px;
     border-block-end-style: groove;
     border-block-end-color:var(--color-border);
@@ -399,9 +418,9 @@ body{
   
   }
   .Us-caja-amarilla{
-    width: 50%;
-    margin: 0 auto;
+    width: 70%;
     height: 30vh;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     text-align: center;
@@ -410,8 +429,12 @@ body{
 
   }
   .caja-amarilla-texto{
-    width: 50%;
-    margin: 3%;
+    width: 100%;
+    margin: 2%;
+    font-size: 1.3rem;
+    font-weight: 50;
+    letter-spacing: 3px;
+    font-family:var(--fuentesub);
   }
   .imagen-visita-principal:hover{
     -webkit-transform:scale(1);transform:scale(0.9);
@@ -562,6 +585,12 @@ body{
       height: 100%;
       display: flex;
       flex-flow: column;
+    }
+    .cont-us-description{
+      font-size: 1.4rem;
+    }
+    .caja-amarilla-texto{
+      padding: 3%;
     }
   
      }
