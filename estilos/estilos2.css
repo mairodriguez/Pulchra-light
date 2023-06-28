@@ -610,7 +610,9 @@ body{
       flex-flow: column;
     }
     .cont-us-description{
+      height: 60vh;
       font-size: 1.4rem;
+
     }
     .caja-amarilla-texto{
       padding: 3%;
