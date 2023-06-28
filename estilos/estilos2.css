@@ -598,11 +598,14 @@ body{
     .us-y-descripcion{
       width: 90%;
       height: 800px;
-      font-size: 1.3rem;
+      font-size: 1rem;
       margin-inline: 40%;
     }
     .luz-fondoUs-cont{
       width: 90%;
+    }
+    .titulo-aboutUs{
+      font-size: 2rem;
     }
     .Us-caja-amarilla{
       height: 100%;
@@ -611,11 +614,12 @@ body{
     }
     .cont-us-description{
       height: 60vh;
-      font-size: 1.4rem;
+      font-size: 1rem;
 
     }
     .caja-amarilla-texto{
       padding: 3%;
+      font-size: 1rem;
     }
     .botones {
       width: 50%;
