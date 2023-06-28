@@ -10,7 +10,7 @@
 :root{
     --fuentetitulo: "Hatolie";
     --fuentesub:"a";
-    --bgc:rgba(36, 20, 17, 1);
+    --bgc:rgb(19, 8, 3);
     --color-border: rgb(253, 207, 0);
 }
 body{
