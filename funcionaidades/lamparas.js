@@ -14,6 +14,20 @@ span.onclick = function() {
 }
 
 //------------------- login------------------------
+const logionForm = document.querySelector('.loginForm')
+logionForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const email = document.querySelector(".email").value;
+    const contrasena = document.querySelector(".contrasena").value;
+    const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [] 
+    const usuarioValido = usuarios.find(usuarios => usuarios.email === email && usuarios.contraseña === contrasena)
+    if(!usuarioValido){
+       return alert("usuario y/o contraseña incorrectos") 
+    }
+    alert(`hola ${usuarioValido.name}`)
+ })
+
+//  ----------tabs-----------------
 
 const Arrayimagenes = [
   {
