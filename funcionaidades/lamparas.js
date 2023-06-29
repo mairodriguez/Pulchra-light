@@ -257,6 +257,7 @@ const Arrayimagenes = [
                 figflor.className = "cont-nombreImagenes";
                 const enlaceflor = document.createElement('a');
                 enlaceflor.href = arrayGlass[i].src;
+                enlaceflor.target = "blank_";
                 enlaceflor.textContent = arrayGlass[i].nombre;
                 enlaceflor.className = "nombreImagenes";
                 figflor.appendChild(enlaceflor)
@@ -303,6 +304,7 @@ const Arrayimagenes = [
                   figflor.className = "cont-nombreImagenes";
                   const enlaceflor = document.createElement('a');
                   enlaceflor.href = arrayFlor[i].src;
+                  enlaceflor.target = "blank_";
                   enlaceflor.textContent =  arrayFlor[i].nombre;
                   enlaceflor.className = "nombreImagenes";
                   figflor.appendChild(enlaceflor)
@@ -349,6 +351,7 @@ const Arrayimagenes = [
                     figflor.className = "cont-nombreImagenes";
                     const enlaceflor = document.createElement('a');
                     enlaceflor.href = arrayJelly[i].src;
+                    enlaceflor.target = "blank_";
                     enlaceflor.textContent = arrayJelly[i].nombre;
                     enlaceflor.className = "nombreImagenes";
                     figflor.appendChild(enlaceflor)
